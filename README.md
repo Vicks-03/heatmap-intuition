@@ -8,7 +8,7 @@ Understanding complex mathematical and physical phenomena often requires more th
 
 Currently Included Projects:
 
-1. **Dot Product Heatmap** – Visualizing the dot product normalised vectors with themselves on a 2D plane.
+1. **Dot Product Heatmap** – Visualizing the dot product of normalised vectors with themselves on a 2D plane.
 2. **Magnetic Field of a Finite Solenoid** – Mapping the magnitude of the magnetic field in and around a finite-length solenoid.
 
 Each project includes:
