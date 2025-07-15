@@ -1,42 +1,19 @@
+# Heatmap Intuition
 
-# 🔷 Dot Product Heatmap of Normalized Random Vectors
+This repository is a collection of visually intuitive, physics-driven projects that explore the power of **heatmaps** for scientific and mathematical analysis. Each project combines mathematical rigor, Python code, and visual storytelling to reveal patterns, fields, and structures that might otherwise remain abstract.
 
-This project visualizes how directional relationships between vectors can be analyzed using **dot products** and **heatmaps** — serving as an introductory tool to understand **spatial similarity** in vector spaces.
+## Overview
 
-The visualization makes it easy to grasp how aligned, orthogonal, or opposing directions manifest as structured patterns in a matrix — a technique foundational in physics, machine learning, and vector field analysis.
+Understanding complex mathematical and physical phenomena often requires more than just formulas — it demands **visual intuition**. This repository brings that intuition to life through **heatmaps**, enabling interpretation of concepts like vector operations and electromagnetic fields.
 
----
+Currently Included Projects:
 
-## 🎯 Objective
+1. **Dot Product Heatmap** – Visualizing the dot product normalised vectors with themselves on a 2D plane.
+2. **Magnetic Field of a Finite Solenoid** – Mapping the magnitude of the magnetic field in and around a finite-length solenoid.
 
-To build a simple but conceptually powerful heatmap by:
-- Generating a set of random 3D vectors
-- Normalizing them to focus on **direction** only (not magnitude)
-- Computing pairwise **dot products** → which represent **cosine of the angle** between each vector pair
-- Plotting a **color-coded heatmap** of those dot products to visually interpret vector alignment
+Each project includes:
 
-This helps us learn how geometric relationships (like angle and orientation) are embedded numerically in dot products and visually in heatmaps.
-
----
-
-## 🧠 Why Normalized Vectors?
-
-By normalizing vectors (making them unit-length), we ensure that the dot product:
-- Lies in the range [-1, 1]
-- Equals the cosine of the angle between the two vectors:  
-  **dot(u, v) = cos(θ)**
-
-This removes the influence of length/magnitude and purely measures **directional similarity**.
-
----
-
-## 📊 What the Heatmap Shows
-
-- **1.00 (Red)** → Perfect alignment (cos(0°) = 1)
-- **0.00 (White/Neutral)** → Perpendicular vectors (cos(90°) = 0)
-- **-1.00 (Blue)** → Opposite direction (cos(180°) = -1)
-
-
-
-
-
+- A **heatmap visualization**
+- Underlying **math and physics**
+- **Interpretation of results**
+- Clean, well-commented **Python code**
